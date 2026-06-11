@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online Book Borrowing Platform (eLibrary)
 
-## Getting Started
+A modern, full-stack university library network platform built with Next.js, React, and MongoDB. The system allows verified students and members to browse a digital catalog, manage account profiles, view real-time item availability, and securely reserve library volumes through an interactive web interface.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Purpose
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The **Online Book Borrowing Platform** bridges the gap between traditional university libraries and digital ease. It aims to eliminate long queues and catalog confusion by providing an immediate, real-time look into a library's active inventory. This platform provides robust user authentication, protects sensitive intellectual property routes, and delivers a sleek user experience designed for students managing academic coursework.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Live Application
 
-## Learn More
+* **Production Deployment URL:** *[Live URL Coming Soon]* > *(Note: The live site URL will be updated here immediately upon deployment to production hosting services like Vercel or Netlify).*
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Secure Unified Authentication:** Built-in credentials registration and login workflows alongside secure Google Social Sign-In powered by Better Auth.
+* **Cohesive User Notifications:** Custom sleek, dark-themed charcoal toast popups (`#0f172a`) confirming all major lifecycle events (Log In, Registration, Log Out, and Reservations).
+* **Dynamic Catalog System:** Smooth browsing filters matching target parameters like book categories, authors, and precise individual volumes.
+* **Protected Private Routing:** Secure layout shield system utilizing React hooks to block unauthenticated visitors from accessing internal pages or book detail sub-routes without an active session.
+* **Real-Time Queue Management:** Interactive book reservation button tracking available stock limits, automatically decrementing quantities, and locking out double-reservations.
+* **Responsive User Interfaces:** Built with semantic accessibility structures and fluid grid systems optimized for both desktop viewports and mobile devices.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Core NPM Packages Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The platform relies on the following major dependencies to run efficiently:
+
+| Package | Purpose |
+| :--- | :--- |
+| **next** (v15+) | React framework providing Server-Side Rendering (SSR) and client routing. |
+| **react** / **react-dom** | Core library for component-based rendering architecture. |
+| **better-auth** | Advanced session handling, cookie control, and multi-provider social authentication. |
+| **react-hook-form** | Lightweight form validation and execution engine for clean input state handling. |
+| **react-hot-toast** | Dynamic notification popups offering extensive inline custom styling controls. |
+| **react-icons** | Accessible icon packaging including font families like FontAwesome and FlatIcons. |
+| **tailwindcss** | Utility-first CSS layout engine handling clean, scalable application designs. |
+| **daisyui** | Tailwind CSS component plugin providing pre-styled semantic design tokens. |
+
+---
+
+## 🛠️ Getting Started Locally
+
+Follow these quick steps to get a local copy of this repository up and running on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/book-borrowing-platform.git](https://github.com/your-username/book-borrowing-platform.git)
+   cd book-borrowing-platform
