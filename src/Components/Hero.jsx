@@ -6,11 +6,6 @@ import { FaArrowRight, FaSearch, FaBook, FaStar, FaBookmark } from 'react-icons/
 
 const Hero = () => {
     return (
-        /* 1. Added your local /images/hero.png as a background image.
-          2. 'bg-cover bg-center' ensures it scales perfectly without stretching.
-          3. Replaced 'bg-base-100' with a dark or translucent tint overlay (bg-neutral-focus/80) 
-             mixed with a backdrop-blur so your white/colored text remains perfectly readable.
-        */
         <div 
             className="relative isolate overflow-hidden bg-cover bg-center py-24 sm:py-32"
             style={{ backgroundImage: "url('/images/hero.png')" }}
@@ -19,8 +14,7 @@ const Hero = () => {
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                    
-                    {/* Left Column: Content (Updated colors to stand out on dark images) */}
+            
                     <div className="lg:col-span-7 text-center lg:text-left space-y-6">
                         
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary-content text-xs font-semibold border border-primary/30 tracking-wide">
@@ -50,7 +44,6 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    {/* Right Column: Premium Floating Book Display Frame */}
                     <div className="lg:col-span-5 relative flex justify-center lg:justify-end">
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-secondary/10 blur-3xl -z-10" />
 
