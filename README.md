@@ -43,12 +43,3 @@ The platform relies on the following major dependencies to run efficiently:
 | **daisyui** | Tailwind CSS component plugin providing pre-styled semantic design tokens. |
 
 ---
-
-## 🛠️ Getting Started Locally
-
-Follow these quick steps to get a local copy of this repository up and running on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/book-borrowing-platform.git](https://github.com/your-username/book-borrowing-platform.git)
-   cd book-borrowing-platform
