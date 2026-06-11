@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import BookCard from '@/components/BookCard';
+import BookCard from '@/Components/BookCard';
 import { FaBookOpen, FaSearch, FaTags } from 'react-icons/fa';
 
 const categories = ["All", "Story", "Tech", "Science"];
