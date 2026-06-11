@@ -40,15 +40,11 @@ const BookSlider = () => {
                 >
                     {bannerSlides.map((slide) => (
                         <SwiperSlide key={slide.id}>
-                            {/* 2. Background container utilizing the custom image url */}
                             <div 
                                 className="w-full h-full bg-cover bg-center relative flex flex-col justify-center px-8 md:px-16 space-y-3"
                                 style={{ backgroundImage: `url(${slide.image})` }}
                             >
-                                {/* 3. The Dark Overlay Filter (Ensures white text stands out beautifully over bright pixels) */}
                                 <div className="absolute inset-0 bg-slate-950/60 backdrop-blur-xs z-0" />
-
-                                {/* Text content wrapper - locked to z-10 to stay on top of the dark filter */}
                                 <div className="relative z-10 flex flex-col space-y-3">
                                     <span className="badge badge-primary bg-primary/20 text-primary border-none text-[10px] font-black uppercase tracking-widest px-3 py-2 w-fit">
                                         Library Bulletin
