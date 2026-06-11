@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Hidden Forest",
+    "author": "Emma Carter",
+    "description": "A young explorer uncovers secrets hidden deep within an ancient forest.",
+    "category": "Story",
+    "available_quantity": 14,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500"
+  },
+  {
+    "id": 2,
+    "title": "Code Beyond Limits",
+    "author": "Daniel Brooks",
+    "description": "An introduction to modern software development and problem-solving techniques.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500"
+  },
+  {
+    "id": 3,
+    "title": "Journey to the Stars",
+    "author": "Sophia Reynolds",
+    "description": "A fascinating look at humanity's quest to explore the universe.",
+    "category": "Science",
+    "available_quantity": 11,
+    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=500"
+  },
+  {
+    "id": 4,
+    "title": "The Lost Kingdom",
+    "author": "Michael Turner",
+    "description": "An epic adventure through forgotten lands and ancient mysteries.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=500"
+  },
+  {
+    "id": 5,
+    "title": "AI Fundamentals",
+    "author": "Rachel Kim",
+    "description": "A beginner-friendly guide to artificial intelligence and machine learning.",
+    "category": "Tech",
+    "available_quantity": 13,
+    "image_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=500"
+  },
+  {
+    "id": 6,
+    "title": "The Science of Oceans",
+    "author": "Oliver Grant",
+    "description": "Explores marine ecosystems, ocean currents, and aquatic life.",
+    "category": "Science",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=500"
+  },
+  {
+    "id": 7,
+    "title": "Whispers of the Mountain",
+    "author": "Lily Anderson",
+    "description": "A heartwarming tale of friendship and courage in a remote village.",
+    "category": "Story",
+    "available_quantity": 15,
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=500"
+  },
+  {
+    "id": 8,
+    "title": "Cloud Computing Essentials",
+    "author": "Nathan Cole",
+    "description": "Covers the core concepts and practical applications of cloud technologies.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=500"
+  },
+  {
+    "id": 9,
+    "title": "Quantum Wonders",
+    "author": "Ava Mitchell",
+    "description": "An accessible exploration of quantum mechanics and its real-world impact.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=500"
+  },
+  {
+    "id": 10,
+    "title": "The Midnight Voyage",
+    "author": "Ethan Walker",
+    "description": "A thrilling sea adventure filled with mystery and discovery.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?q=80&w=500"
+  },
+  {
+    "id": 11,
+    "title": "Cybersecurity Basics",
+    "author": "Grace Patel",
+    "description": "Introduces essential security practices for protecting digital systems.",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=500"
+  },
+  {
+    "id": 12,
+    "title": "The Human Genome",
+    "author": "Benjamin Lee",
+    "description": "Explains the structure, function, and significance of human DNA.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=500"
+  }
+]
