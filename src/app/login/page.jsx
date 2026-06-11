@@ -136,7 +136,6 @@ const LoginPage = () => {
                     <div className="grow border-t border-slate-100"></div>
                 </div>
 
-                {/* Google OAuth Option */}
                 <button
                     type="button"
                     onClick={handleGoogleSignIn}
