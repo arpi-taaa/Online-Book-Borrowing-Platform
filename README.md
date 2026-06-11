@@ -12,7 +12,7 @@ The **Online Book Borrowing Platform** bridges the gap between traditional unive
 
 ## 🚀 Live Application
 
-* **Production Deployment URL:** *[Live URL Coming Soon]* > *(Note: The live site URL will be updated here immediately upon deployment to production hosting services like Vercel or Netlify).*
+* **Production Deployment URL:** *https://online-book-borrowing-platform-r43a.vercel.app/* 
 
 ---
 
