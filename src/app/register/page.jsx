@@ -8,7 +8,7 @@ import { authClient } from '@/lib/auth-client';
 import { FcGoogle } from 'react-icons/fc';
 import toast from 'react-hot-toast';
 import { router } from 'better-auth/api';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 const RegisterPage = () => {
     const nextRouter = useRouter();
