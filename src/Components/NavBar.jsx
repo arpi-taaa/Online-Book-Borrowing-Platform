@@ -80,9 +80,7 @@ const Navbar = () => {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-xl bg-base-100/95 backdrop-blur-lg rounded-xl w-52 border border-base-content/10 space-y-1 text-sm font-medium">
                             <li><Link href="/" className="rounded-lg py-2">Home</Link></li>
                             <li><Link href="/books" className="rounded-lg py-2">Browse Books</Link></li>
-                            {user && (
-                                <li><Link href="/dashboard" className="rounded-lg py-2">My Borrowed</Link></li>
-                            )}
+                            
                         </ul>
                     </div>
 
